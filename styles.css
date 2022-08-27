@@ -24,6 +24,16 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Rubik';
 }
 
+pre {
+    background-color: var(--c-elements-1);
+
+    padding: 5px;
+
+    border-radius: 10px;
+
+    font-size: 20px;
+}
+
 img {
     border: solid var(--c-elements-1) 3px;
     border-radius: 5px;
@@ -86,7 +96,7 @@ a:hover {
     display: block;
 
     margin: 0 auto;
-    
+
     max-width: 100%;
 }
 

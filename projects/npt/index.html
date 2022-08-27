@@ -13,6 +13,51 @@
     <body>
         <div id="content" class="content">
             <h1 class="main-title">NPT</h1>
+            <p>
+                NPT is a dynamically typed programming
+                language written in C#, styled to look
+                like lua. You can find the source code
+                on
+                <a href="https://github.com/IAmCheeseman/NPT-Lang/" target="_blank">github</a>.
+            </p>
+            <p>
+                Here's a couple snippets showing the syntax
+            </p>
+            <pre>
+                <code>
+let str = import("string")
+
+let i = 0
+i += 1 // Just needed to flex on lua a bit
+
+let j = [1, 2, 3]
+println(j[0]) // Ah, I accidentally flexxed more :/
+
+fun my_function(a, b)
+    return a + b
+end
+
+println(str.format("my_function() resulted in '{}'", [str(my_function(1 + 2))]))
+                </code>
+            </pre>
+            <p>
+                Hello world:
+            </p>
+            <pre>
+                <code>
+let std = import("std")
+std.print("Hello, world!")
+                </code>
+            </pre>
+            <p>
+                It's not fast. Not at all. In fact, it's slower than Python.
+                Some day I might rewrite NPT and make it compiled.
+            </p>
+            <p>
+                If you want to see more of the syntax, you can check out the
+                <a href="https://github.com/IAmCheeseman/NPT-Lang/tree/main/Examples" target="_blank">examples</a>
+                on Github.
+            </p>
         </div>
     </body>
     <footer>
