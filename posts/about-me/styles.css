@@ -1,0 +1,22 @@
+
+.avatar-and-about {
+    display: flex;
+
+    flex-direction: row;
+}
+
+.avatar-and-about > p {
+    padding: 0 1vw;
+    margin: 0;
+}
+
+.avatar-and-about > img {
+    width: 100px;
+    height: 100px;
+}
+
+@media only screen and (max-width: 1080px) {
+    .avatar-and-about {
+        display: block;
+    }
+}

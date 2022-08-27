@@ -1,0 +1,19 @@
+{
+    "posts" : [
+        {
+            "name" : "CheeBlog",
+            "path" : "/projects/cheeblog/",
+            "pinned" : false
+        },
+        {
+            "name" : "Red Nivis",
+            "path" : "/projects/red-nivis/",
+            "pinned" : false
+        },
+        {
+            "name" : "NPT",
+            "path" : "/projects/npt/",
+            "pinned" : false
+        }
+    ]
+}

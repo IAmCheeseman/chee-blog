@@ -1,0 +1,14 @@
+{
+    "posts" : [
+        {
+            "name" : "About Me",
+            "path" : "/posts/about-me",
+            "pinned" : true
+        },
+        {
+            "name" : "Post #1",
+            "path" : "/posts/test-post/",
+            "pinned" : false
+        }
+    ]
+}

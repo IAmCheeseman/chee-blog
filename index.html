@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+    <body>
+        <div id="content" class="content">
+            <h1 class="main-title">CheeBlog</h1>
+            <div id="posts" class="posts post-list">
+                <h2 class="sub-title">Posts</h2>
+                <div id="pinned-posts" class="pins"></div>
+            </div>
+            <div id="projects" class="projects post-list">
+                <h2 class="sub-title">Projects</h2>
+                <div id="pinned-projects" class="pins"></div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <div>
+            <p class="mini-title">Socials:</p>
+            <div id="socials" class="socials"></div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/index.js" type="text/javascript" defer></script>
+    <script src="/create_posts.js"></script>
+    <script>
+        load_posts("/posts/posts.json", "posts");
+        load_posts("/projects/projects.json", "projects");
+    </script>
+</html>
