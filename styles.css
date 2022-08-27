@@ -82,6 +82,14 @@ a:hover {
     border-radius: 5px;
 }
 
+.image {
+    display: block;
+
+    margin: 0 auto;
+    
+    max-width: 100%;
+}
+
 footer {
     position: fixed;
 
