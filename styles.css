@@ -122,6 +122,8 @@ footer {
 
     border-radius: 5px;
 
+    border-bottom: 5px solid transparent;
+
     padding: 5px;
     margin: 5px;
 
@@ -131,8 +133,10 @@ footer {
 .button:hover {
     background-color: var(--c-elements-2);
 
-    transform: scale(1.1, 1.1) translateY(-5px);
+    border-bottom: 5px solid var(--c-link-1);
 
+    transform: scale(1.1, 1.1) translateY(-5px);
+    
     transition: all 0.25s;
 }
 
