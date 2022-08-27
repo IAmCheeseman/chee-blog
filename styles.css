@@ -95,6 +95,10 @@ footer {
 
 #socials {
     display: inline-block;
+}
+
+.social-buttons {
+    /* display: inline-block; */
 
     background-color: var(--c-elements-1);
 
